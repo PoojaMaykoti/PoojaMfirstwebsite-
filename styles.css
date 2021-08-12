@@ -126,5 +126,46 @@ span
 
  footer
  {
- 	background-color: #7b68ee;
+ 	background-color:#7b68ee;
+ 	padding: 2rem;
+ 	text-align:center;
+    border-top-right-radius: 1rem;
+    color: white;
+
+ }
+
+
+ .first
+ {
+ 	text-decoration: none;
+ 	color: white;
+
+ }
+
+ .unorder
+ {
+ 	list-style: none;
+   font-size: large;
+ }
+
+ li
+ {
+ 	float: left;
+
+ }
+ a{
+ 	text-align: center;
+ 	padding-left: 20px;
+ }
+
+
+ .div2
+ {
+ 	margin-left:410px;
+
+ }
+
+ .header
+ {
+ 	font-size: large;
  }
