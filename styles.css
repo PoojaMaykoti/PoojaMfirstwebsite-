@@ -20,7 +20,7 @@
 	border-radius:4px;
     text-decoration:none; 
    font-size:17px;
-   margin-left: 10px;
+   margin-left: 500px;
 }
 
 
@@ -113,12 +113,14 @@ span
  .log1
  {
  	text-align: center;
+
+ 	  background-color: #dcdcdc;
  }
 
  .log2
  {
     text-align: center;
-    background-color: #dcdcdc;
+    /*background-color: #dcdcdc;*/
  }
 
 
@@ -161,11 +163,18 @@ span
 
  .div2
  {
- 	margin-left:410px;
+ 	margin-left:430px;
 
  }
 
  .header
  {
  	font-size: large;
+ }
+
+ .blog1
+ {
+ 	color:black;
+ 	border: 1px solid #6a5acd;
+ 	margin-left:430px;
  }
