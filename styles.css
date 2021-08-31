@@ -21,18 +21,24 @@
     text-decoration:none; 
    font-size:17px;
    margin-left: 500px;
+   padding: 0.3rem;
+   /*float: right;*/
 }
 
 
 .link-secondary
 {
-	background-color:#6a5acd;
-	color:#f8f8ff;
+	/*background-color:#6a5acd;*/
+	/*color:#f8f8ff;*/
+	color: #6a5acd;
+
 	border:1px solid #6a5acd;
 	border-radius:4px;
     text-decoration:none; 
     font-size:17px;
     margin-left: 10px;
+    padding: 0.3rem;
+    /*padding: 0.5rem;*/
 }
 
 .none-inline
@@ -54,6 +60,8 @@
    .div1
    {
 	   font-weight:bold;
+	   padding-top: 10px;
+	   padding-left: 20px;
    }
 
 
@@ -69,16 +77,16 @@
   }
 
 
- .navigation .active
+  .active
  {
 	color:white;
-	float: left;
-	padding-left:10rem;
+	
+	padding-left:7rem;
 	text-decoration: none;
+	margin-left:160px;
+	/*float: left;*/
 
 	
-  
-
 }
 
 span
@@ -114,13 +122,15 @@ span
  {
  	text-align: center;
 
- 	  background-color: #dcdcdc;
+ 	background-color: #dcdcdc;
+
  }
 
  .log2
  {
     text-align: center;
-    /*background-color: #dcdcdc;*/
+    
+
  }
 
 
@@ -144,18 +154,26 @@ span
 
  }
 
- .unorder
+ .unorderd
  {
- 	list-style: none;
+ 	
    font-size: large;
+   /*text-align: center;*/
+   margin-left:300px;
+   list-style: none;
+ 
+  /* float: right;*/
  }
+
 
  li
  {
  	float: left;
 
  }
- a{
+
+ a
+ {
  	text-align: center;
  	padding-left: 20px;
  }
@@ -163,7 +181,10 @@ span
 
  .div2
  {
- 	margin-left:430px;
+ 	/*margin-left:360px;*/
+   /*list-style: none;*/
+   list-style: none;
+    height: 40px;
 
  }
 
@@ -174,7 +195,54 @@ span
 
  .blog1
  {
- 	color:black;
+ 	color: #6a5acd ;
  	border: 1px solid #6a5acd;
- 	margin-left:430px;
+ 	border-radius: 3px;
+ 	margin-left:500px;
+ 	text-decoration:none;
+ 	/*font-size: large;*/
+
+ }
+ .paragraph
+ {
+ 	/*background-color: #dcdcdc;*/
+ 	text-align: center;
+ 	  
+ }
+
+ .hero-heading
+ {
+ 	margin-left: 390px;
+ 	margin-top: 50px;
+ }
+ #blogs
+ {
+ 	margin-left: 20px;
+ }
+ .unorderd-container
+ {
+ 	float: left;
+ }
+ .div3
+ {
+ background-color: #dcdcdc;
+ }
+ .section1
+ {
+ 	background-color: #dcdcdc;
+ }
+ /*
+ <*/
+ #active-contianer
+ {
+ 	/*border: 1px solid #6a5acd;**/
+ 	background-color: #6a5acd;
+ 	text-decoration: none;
+ 	width: 100px;
+   display: inline;
+   padding: 0.5rem;
+   font-size: 17px;
+   color: white;
+   border-style: none;
+
  }
